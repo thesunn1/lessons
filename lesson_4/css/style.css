@@ -1,0 +1,103 @@
+@import url("reset.css");
+
+a {
+   color: red;
+}
+
+h1 {
+   color: blueviolet;
+   font-size: 50px;
+}
+
+header p {
+   color: blue;
+}
+
+h2 {
+   color: green;
+   font-size: 35px;
+}
+
+h3 {
+   color: brown;
+   font-size: 25px;
+}
+
+.navigation-list .nav-link {
+   color: greenyellow;
+}
+
+#books-facts {
+   color: aqua;
+}
+
+.list-of-facts li {
+   color: rgb(170, 115, 25);
+}
+
+.books-info > p {
+   color: rgb(249, 23, 23);
+}
+
+.books-image + p {
+   color: rgb(170, 91, 244);
+}
+
+.why-books.read-books h3 {
+   color: blueviolet;
+}
+
+.why-books.read-books > p{
+   color: violet;
+}
+
+.read-brain * {
+   color: rgb(47, 138, 108);
+}
+
+.museums-list ~ h4 {
+   color: blue;
+}
+
+.museums-list {
+   color: yellow;
+}
+
+.famous-museums > p {
+   color: violet;
+}
+
+div.interesting p {
+   color: green;
+}
+
+div.interesting {
+   color: red;
+}
+
+.list-item {
+   color: rgb(10, 186, 186);
+}
+
+.museums-list .selected-item {
+   color: brown;
+}
+
+[class*="-item-final"] {
+   color: yellowgreen;
+}
+
+span {
+   color: red;
+}
+
+span,
+.footer {
+   color: aqua;
+}
+
+/*
+* {
+   color: white !important;
+}
+*/
