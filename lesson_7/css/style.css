@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+   padding: 50px 15px;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   color: #7D7D7D;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.block,
+.block-2,
+.block-3,
+.block-4 {
+   max-width: 1248px;
+}
+
+.block,
+.block-2,
+.block-3,
+.block-4 {
+   margin: 0 auto;
+   margin-bottom: 150.5px;
+}
+
+.top-block {
+   width: 296px;
+   margin: 0 auto;
+   margin-bottom: 70px;
+}
+.subtitle-construction {
+   font-size: 0;
+   padding: 0 47px;
+   margin-bottom: 16px;
+}
+.quadrat {
+   display: inline-block;
+   width: 0;
+   height: 0;
+   border: 6px solid #40DDB6;
+   margin-right: 6px;
+}
+
+.title,
+.subtitle,
+.text-bold {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-weight: 700;
+}
+
+.subtitle-text {
+   display: inline-block;
+   color: #37393F;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.title {
+   color: #37393F;
+   text-align: center;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.icons-graphics p, 
+.photography p,
+.fonts p,
+.block-2 p {
+   line-height: 1.46;
+   margin-bottom: 32px;
+}
+
+
+.icons-graphics, 
+.photography {
+   margin-bottom: 100px;
+}
+
+.icons-graphics {
+}
+.subtitle {
+   font-size: 40px;
+   line-height: 1.21;
+   margin-bottom: 11px;
+}
+.text-bold {
+}
+
+.margin-link{
+   display: inline-block;
+   margin-bottom: 8px;
+}
+
+.main-link,
+.link {
+   color: #40DDB6;
+}
+
+/*---------------------Page 2----------------------*/
+
+.block-2 {
+   width: 830px;
+}
+
+.project-information-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
+   margin-bottom: 13px;
+}
+
+.list li{
+   font-weight:500;
+   line-height: 1.46;
+   margin-bottom: 32px;
+}
+
+/*-------------------Page 3-----------------------=*/
+
+
+
+.euphoria-title,
+.euphoria-subtitle {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+}
+
+.title-build {
+   max-width: 100%;
+   font-size: 0;
+   margin-bottom: 30px;
+}
+
+.line {
+   display: inline-block;
+   width: 0;
+   height: 28px;
+   border: 3px solid #8a33fd;
+   border-radius: 10px;
+   margin-right: 15px;
+   vertical-align: middle;
+}
+
+.euphoria-title {
+   display: inline-block;
+   color: #3C4242;
+   font-size: 28px;
+   line-height: 1.2;
+   letter-spacing: 0.56px;
+   vertical-align: middle;
+   max-width: 50%;
+}
+
+.euphoria-text {
+   padding-left: 21px;
+}
+
+.euphoria-subtitle {
+   color: #807D7E;
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+   margin-bottom: 25px;
+}
+
+.bold,
+.euphoria-text p {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+.euphoria-text p {
+   margin-bottom: 20px;
+}
+
+.bold {
+   font-weight: 700;
+}
+
+/*-------------------Page 4-----------------------=*/
+
+.block-4 {
+   max-width: 1103px;
+   font-family: "Cormorant Infant", serif;
+   font-weight: 700;
+}
+
+.image-border-1,
+.image-border-2,
+.jewel-text {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+
+.jewel-text {
+   max-width: 503px;
+   margin-right: 75px;
+}
+
+.jewel-subtitle {
+   color: #D58417;
+   font-size: 20px;
+   margin-bottom: 27px;
+}
+
+.jewel-title{
+   color: #000;
+   font-size: 64px;
+   margin-bottom: 31px;
+}
+
+.jewel-text p{
+   color: #606060;
+   font-size: 30px;
+   line-height: 1.4;
+}
+
+.image-border-1{
+   width: 177px;
+   height: 336px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   margin-right: 20px;
+}
+
+.image-1 {
+   width: 177px;
+   height: 336px;
+   margin-top: 19px;
+   margin-left: -11px;
+}
+
+.image-border-2 {
+   width: 308px;
+   height: 506px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   background-color: white;
+}
+
+.image-2{
+   width: 307px;
+   height: 500px;
+   margin-top: 19px;
+   margin-left: -11px;
+}
+
+/*-------------------Practice Block-----------------------=*/
+
+.block-practice {
+   width: 1200px;
+   font-size: 0;
+}
+
+.test-1,
+.test-2,
+.test-3,
+.test-4 {
+   width: 300px;
+   height: 300px;
+   font-size: 18px;
+   background-color: #58c8db;
+   display: inline-block;
+   margin: 50px;
+}
+
+.test-5,
+.test-6,
+.test-7,
+.test-8 {
+   width: 300px;
+   height: 300px;
+   font-size: 18px;
+   background-color: #58c8db;
+}
+
+.test-4 a{
+   color: yellow;
+}
+
+.test-1 {
+   border: 15px solid green;
+   border-radius: 20px;
+   box-shadow: 5px 5px 20px 5px #000;
+}
+
+.test-1:hover {
+   opacity: 75%;
+}
+
+
+.test-2 {
+   border: 15px dotted yellow;
+   border-radius: 50px;
+   box-shadow: 10px 10px 30px 10px #81dc20;
+}
+
+.test-2:hover {
+   opacity: 50%;
+}
+
+
+.test-3 {
+   border: 15px double blue;
+   border-radius: 30px;
+   box-shadow: inset 1px 1px 30px 10px #bee21d;
+}
+
+.test-3:hover {
+   opacity: 25%;
+}
+
+
+.test-4 {
+   padding: 50px 50px 100px 50px;
+   border: 15px solid violet;
+	background-color: yellowgreen;
+   border-radius: 50%;
+   box-shadow: -5px -5px 30px 5px rgb(30, 105, 28);
+}
+
+.test-4:hover {
+   opacity: 0;
+}
+
+.test-5 {
+   outline: 15px solid green;
+}
+
+.test-6 {
+   outline: 15px dotted yellow;
+}
+
+.test-7 {
+   outline: 15px double blue;
+}
+
+.test-8 {
+   outline: 15px solid violet;
+   visibility: hidden;
+}
+
+.arrow {
+   width: 0;
+	height: 0;
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
