@@ -1,0 +1,436 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+
+
+@import url("reset.css");
+
+main {
+   padding: 30px;
+}
+
+/*-----------------------Практика-----------------------*/
+
+.block {
+   max-width: 500px;
+   color: rgb(255, 255, 255);
+   margin-bottom: 30px;
+   padding: 50px;
+   background: 
+   url(../img/apple.svg) 100% 0% / 50px no-repeat,
+   linear-gradient(90deg, #833ab4 0%, #60cd90 34%, rgba(187,187,46,1) 70%);
+}
+
+[class*="block-"] {
+   margin-bottom: 30px;
+}
+
+.block-2 {
+   max-width: 500px;
+   color: yellowgreen;
+   padding: 0 51px;
+   background: #552355 url("../img/fighter-1.svg") left top / 50px 50px no-repeat fixed;
+   background-position: 30px 355px;
+}
+
+.block-3, 
+.block-4 {
+   padding: 30px;
+   max-width: 100%;
+   background: url("../img/hand-shake.png") 0 0 / cover no-repeat;
+}
+
+.block-4 {
+   background-size: contain;
+}
+
+.block-5 {
+   padding: 30px;
+   background: #60cd90 linear-gradient(90deg, rgba(180,179,58,1) 0%, rgba(0,92,245,1) 0%, rgba(142,140,121,1) 50%, rgba(232,232,14,1) 100%) 0 0 / 50% no-repeat; 
+}
+
+.block-6 {
+   padding: 30px;
+   color: rgb(218, 224, 192);
+   background: url("../img/fighter-2.svg") 50% 50% / 100px no-repeat,
+   url("../img/gamer.svg") right bottom / 50px no-repeat,
+   url("../img/fighter-1.svg") 30% 50% / 100px no-repeat,
+   linear-gradient(90deg, rgba(180,179,58,1) 0%, rgba(0,2,245,1) 0%, rgba(221,12,12,1) 50%, rgba(58,209,26,1) 100%);
+}
+
+.inline {
+   background-color: green;
+}
+
+span {
+   background-color: yellowgreen;
+}
+
+.practice-block {
+   margin-bottom: 100px;
+}
+
+/*-----------------------Homework (Task-1)-----------------------*/
+
+[class*="task-"] {
+   margin: 0 auto;
+}
+
+.task-1,
+.task-2 {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 1.46;
+   margin-bottom: 100px;
+}
+
+.task-1 {
+   max-width: 1023px;
+}
+
+
+.top-construction > p {
+   line-height: 1.46;
+   margin-bottom: 15px;
+}
+
+.top-construction {
+   margin-bottom: 43px;
+}
+
+.main-subtitle,
+.main-subtitle-2 {
+   color: #37393F;
+   padding-left: 18px;
+   font-weight: 500;
+   line-height: 1.22;
+   text-transform: capitalize;
+   margin-bottom: 16px;
+}
+
+.main-subtitle {
+   background: url("../img/box.png") left no-repeat;
+}
+
+[class*="-title"] {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+}
+
+.main-title,
+.main-title-2 {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 40px;  
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.main-title {
+   max-width: 413px;
+   margin-bottom: 20px;
+}
+
+.list {
+   margin: 20px 0;
+}
+
+.list-item {
+   min-height: 30px;
+   color: #37393F;
+   background: url("../img/hack.svg") 0 3px no-repeat;
+   padding-left: 35px;
+   font-size: 20px;
+   line-height: 1.65;
+   margin-bottom: 23px;
+}
+
+.info {
+   max-width: 613px;
+   font-size: 0;
+   margin-bottom: 37px;
+}
+
+.experience-construction,
+.awards-construction {
+   display: inline-block;
+   max-width: 295px;
+   min-height: 140px;
+   border: 1px solid #E3E3E3;
+   font-size: 18px;
+   vertical-align: middle;
+}
+
+.experience-construction {
+   margin-right: 21px;
+}
+
+.info p {
+   font-size: 16px;
+   line-height: 1.35;
+}
+
+.experience-content,
+.awards-content {
+   padding-left: 58px;
+   margin: 32px;
+}
+
+.experience-content {
+   background: url("../img/experience.svg") no-repeat;
+}
+
+.awards-content {
+   background: url("../img/awards.svg") no-repeat;
+}
+
+.experience-title,
+.awards-title {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.5;
+   margin-bottom: 3px;
+}
+
+/*
+.button {
+   width: 184px;
+   height: 66px;
+   padding: 22px 27px;
+   background: #6B77E5;
+}
+
+.button a {
+   color: #FFF;
+   font-weight: 600;
+   line-height: 1.22;
+   text-transform: capitalize;
+}
+*/
+
+.button {
+   display: inline-block;
+   width: 184px;
+   height: 66px;
+   background: #6B77E5;
+   color: #FFF;
+   font-weight: 600;
+   line-height: 1.22;
+   text-transform: capitalize;
+   text-align: center;
+   padding-top: 22px;
+}
+
+/*-----------------------Homework (Task-2)-----------------------*/
+
+.task-2 {
+   max-width: 1220px;
+}
+
+.text-construction {
+   text-align: center;
+   margin-bottom: 47px;
+}
+
+.main-subtitle-2 {
+   display: inline-block;
+   background: url("../img/box.png") 0 5px no-repeat;
+   margin-bottom: 14px;
+   vertical-align: bottom;
+   text-align: center;
+}
+
+.main-title-2 {
+   color: #37393F;
+   font-size: 40px;  
+   font-weight: 700;
+   line-height: 1.21;
+   text-align: center;
+   margin-bottom: 14px;
+}
+
+.top {
+   margin-bottom: 58px;
+}
+
+.images-construction {
+   font-size: 0;
+}
+
+.images-construction p {
+   padding-left: 25px;
+   font-size: 14px;
+   line-height: 1.46;
+   background: url("../img/calendar.svg") left no-repeat;
+}
+
+.title-block {
+   display: inline-block;
+   vertical-align: middle;
+   font-size: 18px;
+   min-width: 384px;
+   min-height: 500px; 
+   margin-bottom: 15px;
+}
+
+.investment,
+.strategy {
+   margin-right: 34px;
+}
+
+[class*="-container"] {
+   max-width: 1250px;
+   height: 500px;
+}
+
+[class*="-top-container"] {
+   max-width: 100%;
+   min-height: 500px;
+   margin-bottom: 24px;
+}
+
+.financial-top-container {
+   background: url("../img/image-01.png") no-repeat;
+}
+
+.marketing-top-container {
+   background: url("../img/image-02.png") no-repeat;
+}
+
+.business-top-container {
+   background: url("../img/image-03.png") no-repeat;
+}
+
+.investment-top-container {
+   background: url("../img/image-04.png") no-repeat;
+}
+
+.web-top-container {
+   background: url("../img/image-05.png") no-repeat;
+}
+
+.last-top-container {
+   background: url("../img/image-06.png") no-repeat;
+}
+
+
+.title-text {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 10px;
+}
+
+.financial-bottom-container {
+   background: url("../img/image-04.png") 0 0 no-repeat,
+   url("../img/image-05.png") 50% 50% no-repeat,
+   url("../img/image-06.png") 100% 100% no-repeat;
+   margin-bottom: 24px;
+}
+
+/*-----------------------Homework (Task-3)-----------------------*/
+
+.task-3 {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+   margin-bottom: 100px;
+}
+
+.task-3 > p {
+   margin-bottom: 20px;
+}
+
+.euphoria-main-title,
+.euphoria-subtitle {
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+}
+
+.euphoria-main-title {
+   color: #3C4242;
+   background: url("../img/purple-line.svg") left no-repeat;
+   padding-left: 21px;
+   font-size: 28px;
+   letter-spacing: 0.56px;
+   margin-bottom: 30px;
+}
+
+.euphoria-subtitle {
+   margin-bottom: 25px;
+}
+
+.middle-title {
+   margin: 25px 0;
+}
+
+/*-----------------------Homework (Task-4)-----------------------*/
+
+.task-4 {
+   max-width: 1240px;
+   font-family: "Causten", sans-serif;
+   color: #FFF;
+   font-family: Causten;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.task-4 p {
+   letter-spacing: 1px;
+}
+
+.full-task {
+   max-width: 100%;
+   font-size: 0;
+   border-radius: 5px;
+}
+
+.full-task img {
+   max-width: 626px;
+}
+
+.construction {
+   max-width: 614px;
+   display: inline-block;
+   font-size: 20px;
+   padding: 179px 74px;
+   background: url("../img/dark-background.png") no-repeat;
+   background-size: cover;
+}
+
+.title-white,
+.shop-now {
+   font-family: "Core Sans C", sans-serif;
+}
+
+.title-white {
+   font-size: 34px;
+   font-weight: 800;
+   line-height: 1.47;
+   letter-spacing: 0.21px;
+   margin-bottom: 30px;
+}
+
+.shop-now {
+   display: inline-block;
+   width: 168px;
+   height: 46px;
+   color: #3C4242;
+   text-align: center;
+   padding: 12px 0;
+   font-size: 18px;
+   font-weight: 600;
+   border-radius: 8px;
+   background: #FFF;
+   margin-top: 50px;
+}
+
+
