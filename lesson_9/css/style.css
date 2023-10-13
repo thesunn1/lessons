@@ -1,0 +1,1362 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:regular,500,600,700&display=swap");
+
+@import url("reset.css");
+
+/*-------------------------Top Header-----------------------*/
+
+.top-header {
+   max-width: 100%;
+   min-height: 100px;
+   background-color: #722ead;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.top-header a {
+   display: inline-block;
+   color: white;
+   font-size: 50px;
+   margin-right: 50px;
+   margin-top: 25px;
+}
+
+.top-header a:hover {
+   text-decoration: underline;
+   background-color: #ffffff;
+   color: #722ead;
+}
+
+/*--------------------------Task-1--------------------------*/
+
+[class*="task-"] {
+   color: #7D7D7D;
+   font-family: "Inter", sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.46;
+}
+
+.task-1 {
+   max-width: 675px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+h2, h3 {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 25px;
+   font-weight: 600;
+}
+
+.top-construction {
+   max-width: 100%;
+   margin-bottom: 48px;
+}
+
+.top-construction p{
+   margin-bottom: 16px;
+}
+
+.top-construction *:last-child {
+   margin-bottom: 0;
+}
+
+.top-subtitle {
+   color: #37393F;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 16px;
+}
+
+.top-subtitle::before {
+   display: inline-block;
+   content: url("../img/cube.png");
+   margin-right: 6px;
+}
+
+.first-title,
+.second-title,
+.our-title {
+   color: #37393F;
+   font-family: Poppins;
+}
+
+.first-title {
+   max-width: 413px;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin-bottom: 10px;
+}
+
+.bottom-construction {
+   max-width: 100%;
+   margin-bottom: 48px;
+}
+
+.our {
+   min-width: 250px;
+   padding: 28px 40px;
+   border: 1px solid #E3E3E3;
+}
+
+.our:not(:last-child) {
+   margin-bottom: 38px;
+}
+
+.our-content p {
+   padding-left: 46px;
+   margin-bottom: 15px;
+}
+
+.our-content p:last-child {
+   margin-bottom: 0;
+   padding-right: 0;
+}
+
+.our-title {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.our-title::before {
+   display: inline-block;
+   content: url(../img/hack.svg);
+   margin-right: 19px;
+   margin-bottom: -3px;
+   vertical-align: middle;
+}
+
+.task-1 a {
+   display: inline-block;
+   width: 200px;
+   height: 65px;
+   color: #FFF;
+   font-weight: 600;
+   margin-bottom: 15px;
+   background-color: #6B77E5;
+   text-align: center;
+   padding-top: 21px;
+}
+
+.task-1 a:hover {
+   background-color: #1d2fd3;
+}
+
+.task-1 > *:last-child {
+   margin-bottom: 0;
+}
+
+/*--------------------------Task-2--------------------------*/
+
+.task-2 {
+   max-width: 1220px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.titles {
+   text-align: center;
+}
+
+.second-title {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   margin-bottom: 41px;
+}
+
+.work-block {
+   max-width: 100%;
+   min-height: 337px;
+   text-align: center;
+   font-size: 0;
+}
+
+.work-part {
+   max-width: 386px;
+   display: inline-block;
+   min-height: 301px;
+   font-size: 18px;
+   margin-right: 31px;
+}
+
+
+.work-part:last-child {
+   margin-right: 0;
+}
+
+.full-content {
+   background: #F4F4F4;
+}
+
+[class*="-image-container"]{
+   margin-bottom: -41px; 
+}
+
+[class*="-image-container"]::before {
+   content: "";
+   display: inline-block;
+   width: 72px;
+   height: 72px;
+   border-radius: 50%;
+}
+
+.left-image-container::before {
+   background: #40DDB6 url("../img/calendar.svg") 15px 15px / 43px no-repeat;
+}
+
+.center-image-container::before {
+   background: #40DDB6 url("../img/puzzle.svg") 15px 15px / 43px no-repeat;
+}
+
+.right-image-container::before {
+   background: #40DDB6 url("../img/shield.svg") 15px 15px / 43px no-repeat;
+}
+
+.left-image-container:hover::before {
+   background: #6B77E5 url("../img/calendar.svg") 15px 15px / 43px no-repeat;
+}
+
+.center-image-container:hover::before {
+   background: #6B77E5 url("../img/puzzle.svg") 15px 15px / 43px no-repeat;
+}
+
+.right-image-container:hover::before {
+   background: #6B77E5 url("../img/shield.svg") 15px 15px / 43px no-repeat;
+}
+
+.content-container > * {
+   margin-bottom: 16px;
+}
+
+.content-container p {
+   margin-bottom: 15px;
+}
+
+.content-container {
+   padding: 58px 43px;
+}
+
+.title-item {
+   line-height: 1.27;
+}
+
+.content-container a {
+   color: #6B77E5;
+   font-weight: 600;
+   line-height: normal;
+   text-transform: capitalize;
+}
+
+.content-container a:hover {
+   color: #1d2fd3;
+   text-decoration: underline;
+}
+
+.content-container > *:last-child {
+   margin-bottom: 0px;
+}
+
+/*--------------------------Task-3--------------------------*/
+
+.task-3 {
+   max-width: 692px;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.third-title {
+   font-size: 30px;
+   line-height: 1.27;
+   margin-bottom: 11px;
+}
+
+.text,
+.text-2 {
+   margin-bottom: 41px;
+}
+
+.text *:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.violet-subtitle,
+.green-subtitle {
+   font-family: "Poppins", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.27;
+   margin-bottom: 12px;
+}
+
+.violet-subtitle {
+   color: #6B77E5;
+}
+
+.text-2 *:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.text-3 *:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.benefits-content-container {
+   max-width: 100%;
+   font-size: 0;
+   margin-bottom: 50px;
+}
+
+.benefits-content-container img {
+   max-width: 50%;
+   margin-right: 29px;
+   vertical-align: middle;
+}
+
+.content {
+   display: inline-block;
+   font-size: 18px;
+   max-width: 50%;
+   vertical-align: middle;
+}
+
+.content *:last-child {
+   margin-bottom: 0;
+}
+
+.size {
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+
+.green-subtitle {
+   color: #40DDB6;
+   max-width: 332px;
+}
+
+.benefits-list-item::before {
+   display: inline-block;
+   min-width: 30px;
+   content: url("../img/mark-2.svg");
+   vertical-align: middle;
+}
+
+.benefits-list-item:not(:last-child) {
+   margin-bottom: 30px;
+}
+
+/*--------------------------Task-4--------------------------*/
+
+.task-4 {
+   max-width: 1244px;
+   color: #000;
+   font-weight: 700;
+   line-height: 1.4;
+   font-size: 0;
+   margin: 0 auto;
+   margin-bottom: 100px;
+}
+
+.task-4 > * {
+   margin-bottom: 15px;
+}
+
+.task-4 * {
+   font-family: "Cormorant Infant", serif;
+}
+
+.jewellery-title { 
+   display: inline-block;
+   max-width: 480px;
+   font-size: 60px;
+   line-height: 115%;
+   vertical-align: middle;
+}
+
+.jewellery-title::after {
+   display: block;
+   content: "";
+   width: 65%;
+   height: 3px;
+   background-color: #78473B;
+   margin-top: 10px;
+}
+
+.jewel-image-1,
+.jewel-image-2 {
+   display: inline-block;
+   font-size: 24px;
+}
+
+.jewel-image-1 {
+   max-width: 339px;
+   margin-right: 45px;
+   vertical-align: middle;
+}
+
+.task-4 a {
+   display: inline-block;
+}
+
+.jewel-image-1 a:hover,
+.jewel-image-2 a:hover {
+   transform: scale(1.05);
+   transition: 0.35s;
+   text-decoration: underline;
+}
+
+.task-4 img {
+   margin-bottom: 25px;
+}
+
+.jewel-image-2 {
+   max-width: 344px;
+   vertical-align: middle;
+}
+
+.jewel-subtitle {
+   font-size: 46px;
+   line-height: 1.13;
+   margin-bottom: 31px;
+}
+
+/*--------------------------Practice--------------------------*/
+
+.main {
+   padding: 30px;
+}
+
+[class*="link-"] {
+   font-family: "Causten", sans-serif;
+   display: block;
+   width: 184px;
+   height: 66px;
+   background: #6B77E5;
+   border-radius: 10px;
+   color: #FFF;
+   font-weight: 600;
+   line-height: 1.22;
+   text-transform: capitalize;
+   text-align: center;
+   padding-top: 22px;
+   margin-bottom: 30px;
+}
+
+.link-1 {
+   background-color: #26efde;
+}
+
+.link-2 {
+   color: #fff;
+   background-color: #000000;
+}
+
+.link-3 {
+   background-color: #c819b7;
+}
+
+.link-4 {
+   background-color: #d91c65;
+}
+
+.link-5 {
+   background-color: #aec642;
+}
+
+.link-1:hover {
+   box-shadow: 0px 13px 28px 3px rgba(103,114,219,0.36);
+}
+
+.link-1:active {
+   padding-top: 17px;
+   background-color: #15b9ab;
+   transition: 0.1s;
+}
+
+.link-2:hover {
+   box-shadow: inset 45px 37px 15px 34px rgba(25, 150, 217, 0),
+   inset 4px 4px 15px 0px #3900f1,
+   5px 5px 5px 0px #2395e0;
+   color: #000000;
+   background-color: #fff;
+}
+
+.link-2:active {
+   background: #ffffff url("../img/mark.svg") 90% center/ 30px no-repeat;
+}
+
+.link-2:focus {
+   outline: 5px solid yellow;
+}
+
+.link-3:hover {
+   background: linear-gradient(to right, #C819B7 0%, #A127A4 51%, #C57545 100%); 
+   box-shadow: 5px 5px 15px 5px #FF26F4;
+}
+
+.link-4:hover {
+   background-color: #1d2fd3;
+}
+
+.link-5:hover {
+   background: linear-gradient(to right, #000000 0%, #09df22 51%, #C57545 100%); 
+   box-shadow: 5px 5px 15px 5px #FF26F4;
+}
+
+.target a {
+   font-family: "Causten", sans-serif;
+   display: inline-block;
+   font-size: 20px;
+   font-weight: 500;
+   margin-right: 30px;
+   color: #fff;
+   outline: 3px solid red;
+   background-color: blue;
+   padding: 10px;
+   margin-bottom: 50px;
+}
+
+.target > a:hover {
+   background-color: rgb(60, 255, 1);
+}
+
+[class*="box-"] {
+   width: 300px;
+   height: 300px;
+   color: #fff;
+   background-color: orange;
+   border: 5px solid red;
+   margin-bottom: 30px;
+   visibility: hidden;
+}
+
+[class*="box-"]:target {
+   visibility: visible;
+}
+
+/*--------------Child------------------*/
+
+.child {
+   margin-bottom: 50px;
+}
+
+.child p {
+   padding: 15px;
+   line-height: 1.3;
+   margin-bottom: 10px;
+}
+
+.child p:last-child {
+   margin-bottom: 0;
+}
+
+.child p:nth-child(odd) {
+   color: #fff;
+   background-color: grey;
+}
+
+.child p:nth-child(even) {
+   color: #fff;
+   background-color: rgb(16, 42, 213);
+}
+
+
+.child a:first-of-type {
+   color: #fff;
+   background-color: rgb(199, 36, 17);
+}
+
+.child a:last-of-type {
+   background-color: rgb(36, 238, 36);
+}
+
+.child span:first-of-type {
+   color: #fff;
+   background-color: rgb(117, 0, 128);
+}
+
+.child span:last-of-type {
+   color: #d9f605;
+   background-color: rgb(25, 166, 212);
+}
+
+.child p:first-child,
+.child p:last-child {
+   color: #000;
+   background-color: yellow;
+}
+
+
+
+.algo {
+   margin-bottom: 50px;
+}
+
+.algo p {
+   padding: 10px;
+}
+
+.algo p:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.algo p:nth-child(3n + 1) {
+   background-color: green;
+}
+
+.algo p:nth-child(3n + 2) {
+   background-color: rgb(21, 161, 220);
+}
+
+.algo p:nth-child(3n + 3) {
+   background-color: rgb(220, 81, 21);
+}
+
+
+
+
+.same-margins,
+.not-same-margins,
+.all-purpose {
+   padding: 30px;
+   margin-bottom: 30px;
+   font-family: "Causten", sans-serif;
+}
+
+/*--------------------SAME MARGINS-------------------*/
+
+
+.same-margins {
+   background-color: #c819b7;
+}
+
+.same-margins > *:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.same-margins-title {
+   color: #fff;
+   font-size: 40px;
+   font-weight: 600;
+   line-height: 1.25;
+}
+
+.same-margins p {
+   color: #000000;
+}
+
+.same-margins a {
+   display: inline-block;
+   color: #26efde;
+   font-size: 25px;
+}
+
+.same-margins a:hover {
+   background-color: #fff;
+}
+
+
+/*------------------NOT SAME MARGINS---------------*/
+
+.not-same-margins {
+   background-color: #c7c428;
+}
+
+.not-same-margins > *:last-child {
+   margin-bottom: 0px;
+}
+
+.not-same-margins-title {
+   color: #a5325e;
+   font-size: 35px;
+   margin-bottom: 35px;
+}
+
+.not-same-margins p {
+   line-height: 1.35;
+   margin-bottom: 23px;
+}
+
+.not-same-margins a {
+   display: inline-block;
+   color: #ef4726;
+   font-size: 25px;
+   margin-bottom: 15px;
+}
+
+.not-same-margins a:hover {
+   text-decoration: underline;
+}
+
+/*---------------ALL PURPOSE (UNIVERSAL)-------------*/
+
+
+
+.all-purpose {
+   background-color: #373ae1;
+}
+
+.all-purpose > * {
+   margin-bottom: 20px;
+}
+
+.all-purpose-title {
+   font-size: 35px;
+   color: #c7c428;
+   margin-bottom: 30px;
+}
+
+.all-purpose p {
+   line-height: 1.25;
+   font-size: 20px;
+   color: #fff;
+}
+
+.all-purpose a {
+   display: inline-block;
+   color: #ca916e;
+   font-size: 25px;         
+}
+
+.all-purpose a:hover {
+   background-color: #ca28ac;
+}
+
+.all-purpose > *:last-child {
+   margin-bottom: 0px;
+}
+
+
+
+/*____________________________________*/
+
+
+.list-item:not(:last-child) {
+   margin-bottom: 20px;
+}
+
+.list-item {
+   font-size: 20px;
+   font-family: "Causten", sans-serif;
+}
+
+.list-item::before {
+   content: "";
+   display: inline-block;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background: #C57545 url("../img/calendar.svg") 13px 13px no-repeat;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+
+.list-item:hover::before {
+   background: #501dc9 url("../img/calendar.svg") 13px 13px no-repeat;
+}
+
+/*---------------GAME------------------*/
+
+.header {
+   max-width: 100%;
+   min-height: 100px;
+   background-color: #78473B;
+   text-align: center;
+   margin: 0 auto;
+   margin-bottom: 100px;
+} 
+
+.hover-game-title {
+   color: white;
+   font-size: 50px;
+   padding-top: 25px;
+}
+
+.hover-game {
+   width: 1200px;
+   max-height: 1200px;
+   margin-bottom: 200px;
+   padding: 15px;
+   text-align: initial;
+   background: rgb(44, 158, 108) url("../img/finish.svg") left bottom / 100px no-repeat;
+   margin-top: 30px;
+   font-size: 0;
+   margin: 0 auto;
+}
+
+.section-1 {
+   width: 50px;
+   height: 50px;  
+}
+
+.first {
+   background-color: orange;
+}
+
+.section-2 {
+   width: 50px;
+   height: 50px;
+   visibility: hidden;
+}
+
+.section-1:hover + .section-2,
+.section-2:hover {
+	visibility: visible;
+}
+
+.section-3 {
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;
+}
+
+.section-2:hover + .section-3,
+.section-3:hover {
+	visibility: visible;
+}
+
+
+.section-4 {
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden; 
+}
+
+.section-3:hover + .section-4,
+.section-4:hover {
+	visibility: visible;
+}
+
+
+.section-5 {
+   width: 50px;
+   height: 50px;
+   background-color: orange; 
+   visibility: hidden; 
+}
+
+.section-4:hover + .section-5,
+.section-5:hover {
+	visibility: visible;
+}
+
+.section-6 {
+   width: 50px;
+   height: 50px;
+   background-color: orange; 
+   visibility: hidden; 
+}
+
+.section-5:hover + .section-6,
+.section-6:hover {
+	visibility: visible;
+}
+
+
+.section-7 {
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-6:hover + .section-7,
+.section-7:hover {
+	visibility: visible;
+}
+
+.section-8 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-7:hover + .section-8,
+.section-8:hover {
+	visibility: visible;
+}
+
+.section-9 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-8:hover + .section-9,
+.section-9:hover {
+	visibility: visible;
+}
+
+.section-10 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-9:hover + .section-10,
+.section-10:hover {
+	visibility: visible;
+}
+
+.section-11 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-10:hover + .section-11,
+.section-11:hover {
+	visibility: visible;
+}
+
+.section-12 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-11:hover + .section-12,
+.section-12:hover {
+	visibility: visible;
+}
+
+.section-13 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-12:hover + .section-13,
+.section-13:hover {
+	visibility: visible;
+}
+
+.section-14 {
+   width: 50px;
+   height: 50px;
+   margin-left: 250px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-13:hover + .section-14,
+.section-14:hover {
+	visibility: visible;
+}
+
+.section-15 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: 250px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-14:hover + .section-15,
+.section-15:hover {
+	visibility: visible;
+}
+
+.section-16 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-15:hover + .section-16,
+.section-16:hover {
+	visibility: visible;
+}
+
+.section-17 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-16:hover + .section-17,
+.section-17:hover {
+	visibility: visible;
+}
+
+.section-18 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-17:hover + .section-18,
+.section-18:hover {
+	visibility: visible;
+}
+
+.section-19 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-18:hover + .section-19,
+.section-19:hover {
+	visibility: visible;
+}
+
+.section-20 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-19:hover + .section-20,
+.section-20:hover {
+	visibility: visible;
+}
+
+.section-21 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-20:hover + .section-21,
+.section-21:hover {
+	visibility: visible;
+}
+
+.section-22 {
+   width: 50px;
+   height: 50px;
+   margin-left: 550px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-21:hover + .section-22,
+.section-22:hover {
+	visibility: visible;
+}
+
+.section-23 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: 550px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden; 
+}
+
+.section-22:hover + .section-23,
+.section-23:hover {
+	visibility: visible;
+}
+
+.section-24 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange; 
+   visibility: hidden;  
+}
+
+.section-23:hover + .section-24,
+.section-24:hover {
+	visibility: visible;
+}
+
+
+.section-25 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden; 
+}
+
+.section-24:hover + .section-25,
+.section-25:hover {
+	visibility: visible;
+}
+
+.section-26 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden;   
+}
+
+.section-25:hover + .section-26,
+.section-26:hover {
+	visibility: visible;
+}
+
+.section-27 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-26:hover + .section-27,
+.section-27:hover {
+	visibility: visible;
+}
+
+.section-28 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-27:hover + .section-28,
+.section-28:hover {
+	visibility: visible;
+}
+
+.section-29 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-28:hover + .section-29,
+.section-29:hover {
+	visibility: visible;
+}
+
+.section-30 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 600px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-29:hover + .section-30,
+.section-30:hover {
+	visibility: visible;
+}
+
+.section-31 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -50px;
+   margin-bottom: 550px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-30:hover + .section-31,
+.section-31:hover {
+	visibility: visible;
+}
+
+.section-32 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -50px;
+   margin-bottom: 500px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-31:hover + .section-32,
+.section-32:hover {
+	visibility: visible;
+}
+
+
+.section-33 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -50px;
+   margin-bottom: 450px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-32:hover + .section-33,
+.section-33:hover {
+	visibility: visible;
+}
+
+
+.section-34 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -50px;
+   margin-bottom: 400px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-33:hover + .section-34,
+.section-34:hover {
+	visibility: visible;
+}
+
+.section-35 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 400px;
+   background-color: orange;
+   visibility: hidden; 
+}
+
+.section-34:hover + .section-35,
+.section-35:hover {
+	visibility: visible;
+}
+
+
+.section-36 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 400px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-35:hover + .section-36,
+.section-36:hover {
+	visibility: visible;
+}
+
+
+.section-37 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 400px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-36:hover + .section-37,
+.section-37:hover {
+	visibility: visible;
+}
+
+
+.section-38 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -50px;
+   margin-bottom: 350px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-37:hover + .section-38,
+.section-38:hover {
+	visibility: visible;
+}
+
+.section-39 {
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin-left: -100px;
+   margin-bottom: 350px;
+   background-color: orange;
+   visibility: hidden; 
+}
+
+.section-38:hover + .section-39,
+.section-39:hover {
+	visibility: visible;
+}
+
+.section-40 {
+   display: inline-block;
+   width: 50px;
+   height: 25px;
+   margin-left: -50px;
+   margin-bottom: 325px;
+   background-color: orange;
+   visibility: hidden;  
+}
+
+.section-39:hover + .section-40,
+.section-40:hover {
+	visibility: visible;
+}
+
+.section-41 {
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin-left: -60px;
+   margin-bottom: 230px;
+   background: rgb(181, 153, 101) url("../img/victory.svg")0 0 / 100px no-repeat;
+   visibility: hidden;
+}
+
+.section-40:hover + .section-41,
+.section-41:hover {
+	visibility: visible;
+}
