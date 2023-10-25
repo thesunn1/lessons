@@ -1,0 +1,19 @@
+@import url("fonts.css");
+
+@import url("reset.css");
+
+/*------------------Practice----------------*/
+
+body {
+   font-family: "Causten", sans-serif;
+   background-color: rgb(80, 97, 97);
+   font-size: 30px;
+}
+
+.main {
+   padding: 30px;
+}
+
+.image-list p:not(:last-child) {
+   margin-bottom: 30px;
+}
