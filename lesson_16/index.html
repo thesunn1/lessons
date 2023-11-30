@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <title>Lesson 15</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+      </header>
+      <main class="page">
+         <div class="page__container">
+            <div class="page__body">
+               <div class="page__form">
+                  <h3 class="page__title">
+                     My Info
+                  </h3>
+                  <h4 class="page__subtitle">
+                     Add Address
+                  </h4>
+                  <div class="page__form form-page">
+                     <form class="form-page__form" action="#">
+                        <div class="form-page__column">
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="name">First Name*</label>
+                              <input class="form-page__field" id="name" name="firstname" required tabindex="1" placeholder="First Name" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="lastname">Last Name*</label>
+                              <input class="form-page__field" id="lastname" name="lastname" required tabindex="2" placeholder="Last Name" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="country">Country / Region*</label>
+                              <input class="form-page__field" id="country" name="country" required tabindex="3" placeholder="Country / Region" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="company">Company Name</label>
+                              <input class="form-page__field" id="company" name="company" tabindex="4" placeholder="Company (optional)" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="street">Street Address*</label>
+                              <input class="form-page__field" id="street" name="street" required tabindex="5" placeholder="House number and street name" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="apt">Apt, suite, unit</label>
+                              <input class="form-page__field" id="apt" name="apt" tabindex="6" placeholder="apartment, suite, unit, etc. (optional)" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="city">City*</label>
+                              <input class="form-page__field" id="city" name="city" required tabindex="7" placeholder="Town / City" type="text">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="state">State*</label>
+                              <select class="form-page__field" tabindex="8" name="state" id="state" required >
+                                 <option disabled selected value>State*</option>
+                                 <option class="form-page__option" value="01">Michigan</option>
+                                 <option class="form-page__option" value="02">Arizona</option>
+                                 <option class="form-page__option" value="03">Nevada</option>
+                                 <option class="form-page__option" value="04">Colorado</option>
+                                 <option class="form-page__option" value="05">Wisconsin</option>
+                              </select>
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="phone">Phone*</label>
+                              <input class="form-page__field" id="phone" required name="phone" tabindex="9" placeholder="Phone" type="tel">
+                           </div>
+                           <div class="form-page__line">
+                              <label class="form-page__label" for="postal">Postal Code*</label>
+                              <input class="form-page__field" id="postal" required name="postal" tabindex="10" placeholder="Postal Code" type="text">
+                           </div>
+                        </div>
+                        <div class="form-page__line textarea">
+                           <label class="form-page__label" for="instruction">Delivery Instruction</label>
+                           <textarea class="textarea__text" name="instruction" placeholder="Delivery Instruction" id="instruction" tabindex="11"></textarea>
+                        </div>
+                        <div class="form-page__checked">
+                           <div class="form-page__checkbox checkbox">
+                              <input class="checkbox__input" id="checkbox-01" tabindex="12" name="checkbox-01" type="checkbox">
+                              <label class="checkbox__label" for="checkbox-01">Set as default shipping address</label>
+                           </div>
+                           <div class="form-page__checkbox checkbox">
+                              <input id="checkbox-02" tabindex="13" name="checkbox-02" class="checkbox__input" type="checkbox">
+                              <label class="checkbox__label" for="checkbox-02">Set as default billing address</label>
+                           </div>
+                        </div>
+                        <div class="form-page__buttons">
+                           <button class="form-page__button button" tabindex="14" type="submit">Save</button>
+                           <button class="form-page__button button" tabindex="15" type="reset">Cancel</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="page__body page__body--size">
+               <div class="page__form page__form--modify">
+                  <h3 class="page__title page__title--line">
+                     Check Out
+                  </h3>
+                  <h4 class="page__subtitle">
+                     Billing Details
+                  </h4>
+                  <div class="page__form form-page form-page--margin">
+                     <form class="form-page__form" action="#">
+                        <div class="form-page__column form-page__column--modify">
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="name">First Name*</label>
+                              <input class="form-page__field" id="name" name="firstname" required tabindex="1" placeholder="First Name" type="text">
+                           </div>
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="lastname">Last Name*</label>
+                              <input class="form-page__field" id="lastname" name="lastname" required tabindex="2" placeholder="Last Name" type="text">
+                           </div>
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="country">Country / Region*</label>
+                              <input class="form-page__field" id="country" name="country" required tabindex="3" placeholder="Country / Region" type="text">
+                           </div>
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="company">Company Name</label>
+                              <input class="form-page__field" id="company" name="company" tabindex="4" placeholder="Company (optional)" type="text">
+                           </div>
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="street">Street Address*</label>
+                              <input class="form-page__field" id="street" name="street" required tabindex="5" placeholder="House number and street name" type="text">
+                           </div>
+                           <div class="form-page__line form-page__line--space">
+                              <label class="form-page__label" for="apt">Apt, suite, unit</label>
+                              <input class="form-page__field" id="apt" name="apt" tabindex="6" placeholder="apartment, suite, unit, etc. (optional)" type="text">
+                           </div>
+                           <div class="form-page__column form-page__column--modify">
+                              <div class="form-page__line form-page__line--modify">
+                                 <label class="form-page__label" for="city">City*</label>
+                                 <input class="form-page__field" id="city" name="city" required tabindex="7" placeholder="Town / City" type="text">
+                              </div>
+                              <div class="form-page__line form-page__line--modify">
+                                 <label class="form-page__label" for="state">State*</label>
+                                 <select class="form-page__field" tabindex="8" name="state" id="state" required >
+                                    <option disabled selected value>State*</option>
+                                    <option class="form-page__option" value="01">Michigan</option>
+                                    <option class="form-page__option" value="02">Arizona</option>
+                                    <option class="form-page__option" value="03">Nevada</option>
+                                    <option class="form-page__option" value="04">Colorado</option>
+                                    <option class="form-page__option" value="05">Wisconsin</option>
+                                 </select>
+                              </div>
+                              <div class="form-page__line form-page__line--modify">
+                                 <label class="form-page__label" for="postal">Postal Code*</label>
+                                 <input class="form-page__field" id="postal" required name="postal" tabindex="9" placeholder="Postal Code" type="text">
+                              </div>
+                           </div>
+                           <div class="form-page__line form-page__line--padding">
+                              <label class="form-page__label" for="phone">Phone*</label>
+                              <input class="form-page__field" id="phone" required name="phone" tabindex="10" placeholder="Phone" type="tel">
+                           </div>
+                        </div>
+                        <div class="form-page__buttons form-page__buttons--modify">
+                           <button class="form-page__button button form-page__button--modify" tabindex="11" type="submit">
+                              Continue to delivery
+                           </button>
+                        </div>
+                        <div class="form-page__checkbox checkbox checkbox--modify">
+                           <input class="checkbox-input" id="checkbox-01" tabindex="12" name="checkbox-01" type="checkbox">
+                           <label class="checkbox-label checkbox__label--modify" for="checkbox-01">Save my information for a faster checkout</label>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="page__checkout checkout-page">
+                  <form class="checkout-page__form" action="#">
+                     <div class="checkout-page__body">
+                        <h4 class="page__subtitle checkout-page__title">
+                           Add Address
+                        </h4>
+                        <p>
+                           Select the address that matches your card or payment method.
+                        </p>
+                        <fieldset class="checkout-page__select">
+                           <div class="checkout-page__group checkout-page__group--modify">
+                              <input class="checkout-page__radio" value="same" name="billing" id="same" value type="radio">
+                              <label class="checkout-page__label radio-little"  for="same">Same as Billing address</label>
+                           </div>
+                           <div class="checkout-page__group checkout-page__group--padding">
+                              <input class="checkout-page__radio" value="same" name="billing" id="diff" value type="radio">
+                              <label class="checkout-page__label radio-little" for="diff">Use a different shipping address</label>
+                           </div>
+                        </fieldset>
+                     </div>
+                     <div class="checkout-page__body">
+                        <h4 class="page__subtitle checkout-page__title--margin">
+                           Shipping Method
+                        </h4>
+                        <div class="checkout-page__select">
+                           <div class="checkout-page__group checkout-page__group--modify">
+                              <p class="checkout-page__info">
+                                 Arrives by Monday, June 7
+                              </p>
+                           </div>
+                           <div class="checkout-page__group checkout-page__group--padding checkout-page__group--flex">
+                              <div class="checkout-page__leftside">
+                                 <p class="checkout-page__info">
+                                    Delivery Charges
+                                 </p>
+                                 <p class="checkout-page__inscription">
+                                    Additional fess may apply
+                                 </p>
+                              </div>
+                              <p class="checkout-page__price">$5.00</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="checkout-page__body checkout-page__body--modify">
+                        <h4 class="page__subtitle checkout-page__title">
+                           Payment Method
+                        </h4>
+                        <p>
+                           All transactions are secure and encrypted.
+                        </p>
+                        <div class="checkout-page__select">
+                           <fieldset>
+                              <div class="checkout-page__group checkout-page__group--modify">
+                                 <div class="checkout-page__leftside checkout-page__leftside--modify">
+                                    <input class="checkout-page__radio" value name="payment" id="credit-card" value type="radio">
+                                    <label class="checkout-page__label radio-big"  for="credit-card">Credit Card</label>
+                                    <p class="checkout-page__inscription checkout-page__inscription--margin">
+                                       We accept all major credit cards.
+                                    </p>
+                                 </div>
+                                 <div class="checkout-page__creditcard">
+                                    <div class="checkout-page__image">
+                                       <img src="img/gpay.svg" alt="gpay">
+                                    </div>
+                                    <div class="checkout-page__image">
+                                       <img src="img/visa.svg" alt="visa">
+                                    </div>
+                                    <div class="checkout-page__image">
+                                       <img src="img/paypal.svg" alt="paypal">
+                                    </div>
+                                    <div class="checkout-page__image">
+                                       <img src="img/paypass.svg" alt="paypass">
+                                    </div>
+                                 </div>
+                                 <div class="form-page__column column-mod">
+                                    <div class="form-page__line line-mod">
+                                       <input required value name="card-number" placeholder="Card number" type="tel" class="form-page__field form-page__field--border form-page__field--modify">
+                                    </div>
+                                    <div class="form-page__line line-mod">
+                                       <input required value name="card-name" placeholder="Name of card" type="text" class="form-page__field form-page__field--border form-page__field--modify">
+                                    </div>
+                                    <div class="form-page__line line-mod">
+                                       <input required value name="card-exp" placeholder="Expiration date (MM/YY)" type="tel" class="form-page__field form-page__field--border form-page__field--modify">
+                                    </div>
+                                    <div class="form-page__line line-mod eye">
+                                       <input required value name="card-exp" placeholder="Security Code" type="password" class="form-page__field form-page__field--border
+                                       form-page__field--modify">
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="checkout-page__group checkout-page__group--modify checkout-page__group--padding">
+                                 <input class="checkout-page__radio" value name="payment" id="cash" value type="radio">
+                                 <label class="checkout-page__label cash radio-big"  for="cash">Cash on delivery</label>
+                                 <p class="checkout-page__inscription checkout-page__inscription--margin">
+                                    Pay with cash upon delivery.
+                                 </p>
+                              </div>
+                              <div class="checkout-page__group checkout-page__group--padding">
+                                 <input class="checkout-page__radio" value name="payment" id="paypal" value type="radio">
+                                 <label class="checkout-page__label radio-little"  for="paypal">PayPal</label>
+                              </div>
+                           </fieldset>
+                        </div>
+                     </div>
+                     <button class="button pay-button">
+                        Pay Now
+                     </button>
+                  </form>
+               </div>
+            </div>
+            <div class="page__body second-body">
+               <div class="page__form second-form">
+                  <h5 class="second-form__subtitle">Contact Us</h5>
+                  <h3 class="second-form__title">Request A Call Back !</h3>
+                  <form class="second-form__form">
+                     <div class="second-form__column">
+                        <div class="second-form__line">
+                           <input class="second-form__input" value name="name" placeholder="Your Name" required type="text">
+                        </div>
+                        <div class="second-form__line">
+                           <input class="second-form__input" value name="email" placeholder="Email Address" required type="email">
+                        </div>
+                        <div class="second-form__line">
+                           <input class="second-form__input" value" name="tel" placeholder="Phone Number" required type="tel">
+                        </div>
+                        <div class="second-form__line">
+                           <input class="second-form__input" value name="subject" placeholder="Subject" required type="text">
+                        </div>
+                     </div>
+                     <div class="second-form__textarea">
+                        <textarea class="second-textarea" value name="message" name="textarea" id="textarea" placeholder="Message..."></textarea>
+                     </div>
+                     <div class="second-form__button">
+                        <button class="submit-button" type="submit">Submit</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+
+</html>
