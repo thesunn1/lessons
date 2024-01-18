@@ -1,0 +1,63 @@
+@import "_fonts.scss";
+@import "_reset.scss";
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap");
+
+
+body {
+   font-family: "Inter", sans-serif;
+}
+
+[class*="__container"] {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+   flex-wrap: wrap;
+}
+
+.wrapper {
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+   & main {
+      flex-grow: 1;
+   }
+}
+
+.header {
+
+   &__top {
+   }
+}
+.top-header {
+   display: flex;
+   background-color: #37393F;
+   justify-content: space-between;
+   padding: toRem(21.5);
+   color: #fff;
+   font-size: toRem(14);
+   &__left {
+      display: flex;
+      gap: toRem(46,16);
+   }
+
+   &__link {
+   }
+
+   &__right {
+      display: flex;
+      gap: toRem(46);
+   }
+
+   &__social {
+      display: flex;
+      gap: toRem(16);
+   }
+
+   &__icon {
+      width: toRem(17.1);
+      height: toRem(16.455);
+   }
+}
+
