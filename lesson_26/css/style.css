@@ -1,0 +1,11 @@
+.invisible {
+   opacity: 0;
+}
+
+.green {
+   color: green;
+}
+
+.footer {
+   transition: 2s;
+}
